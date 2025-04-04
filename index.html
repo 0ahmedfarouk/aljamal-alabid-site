@@ -1,16 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>الجمال الأبيض</title>
+  <title>مؤسسة الجمال الأبيض</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <img src="https://i.imgur.com/6kXv4G9.png" alt="لوجو الجمال الأبيض" class="logo">
+    <img src="assets/images/logo.png" alt="شعار الجمال الأبيض" class="logo">
     <nav>
       <a href="index.html">الرئيسية</a>
       <a href="about.html">من نحن</a>
@@ -18,18 +17,25 @@
       <a href="contact.html">تواصل معنا</a>
     </nav>
   </header>
+
+  <!-- قسم البطل (Hero Section) -->
   <section class="hero">
     <video autoplay muted loop playsinline>
-      <source src="https://videos.pexels.com/video-files/5457380/5457380-hd_1280_720_25fps.mp4" type="video/mp4">
+      <source src="https://cdn.coverr.co/videos/coverr-folding-towels-0984/1080p.mp4" type="video/mp4">
     </video>
     <div class="hero-content" data-aos="fade-up">
       <h1>مفروشات فندقية بجودة استثنائية</h1>
-      <p>خبرة واحترافية في تقديم كل ما تحتاجه منشأتك الفندقية</p>
-      <a href="contact.html" class="cta-button">تواصل معنا الآن</a>
+      <p>نوفّر لك أفضل الحلول الفندقية بخبرة واحترافية.</p>
+      <a href="contact.html" class="cta">تواصل معنا الآن</a>
     </div>
   </section>
-  <a href="https://wa.me/966563952605" class="whatsapp-float" target="_blank">واتساب</a>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+
+  <!-- زر واتساب ثابت -->
+  <a href="https://wa.me/966563952605" class="whatsapp" target="_blank">واتساب</a>
+
+  <!-- تفعيل الأنيميشن -->
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
