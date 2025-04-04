@@ -128,6 +128,44 @@
         opacity: 1;
       }
     }
+
+    /* Additional Styles */
+    section {
+      padding: 60px 20px;
+      background-color: #fff;
+      margin: 40px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .service-box {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .service-box div {
+      width: 30%;
+      padding: 10px;
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    .service-box div:hover {
+      background-color: #0056b3;
+    }
+
+    .service-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
   </style>
 </head>
 <body>
@@ -148,14 +186,31 @@
   <!-- Main Section with Background -->
   <section class="main-section" id="about-us">
     <h2>مرحبًا بك في الجمال الأبيض</h2>
-    <p>نحن نقدم أفضل المفروشات الفندقية، بتصميم عصري وجودة لا مثيل لها.</p>
+    <p>نحن نقدم أفضل المفروشات الفندقية، بتصميم عصري وجودة لا مثيل لها. نحن هنا لخدمتك بأعلى معايير الجودة في صناعة المفروشات.</p>
     <a href="#contact" class="cta-button">تواصل معنا الآن</a>
   </section>
 
   <!-- Services Section -->
   <section id="services">
     <h2>خدماتنا</h2>
-    <p>نقدم مجموعة من أفضل الخدمات في صناعة المفروشات الفندقية. نوفر حلولًا مخصصة تناسب كافة احتياجاتك.</p>
+    <p>نحن نقدم خدمات مميزة لعملائنا تشمل توفير المفروشات الفندقية عالية الجودة، بالإضافة إلى العديد من المنتجات التي تناسب احتياجاتك الفندقية.</p>
+    <div class="service-box">
+      <div>
+        <h3>مفروشات الأسرة</h3>
+        <img src="bed-linen.jpg" alt="مفروشات الأسرة">
+        <p>نحن نقدم لك أفضل المفروشات المريحة والمثالية للفنادق.</p>
+      </div>
+      <div>
+        <h3>المناشف</h3>
+        <img src="towels.jpg" alt="المناشف">
+        <p>نحن نقدم مناشف ناعمة ولطيفة على البشرة لتجربة فاخرة لعملائنا.</p>
+      </div>
+      <div>
+        <h3>منتجات أخرى</h3>
+        <img src="pillows.jpg" alt="وسائد">
+        <p>منتجاتنا تشمل الوسائد الفاخرة لتوفير أقصى درجات الراحة.</p>
+      </div>
+    </div>
   </section>
 
   <!-- Contact Section -->
