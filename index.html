@@ -1,30 +1,115 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>الجمال الأبيض اللي كان زي أركان</title>
   <style>
-    body { font-family: Arial; margin: 0; padding: 0; background: #f9f9f9; }
-    header { background: #fff; padding: 20px; text-align: center; border-bottom: 1px solid #ddd; }
-    section { padding: 40px 20px; text-align: center; }
-    .contact { background: #eee; padding: 20px; }
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .main-section {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 40px 0;
+      border-radius: 8px;
+    }
+    .main-section h2 {
+      font-size: 30px;
+      color: #333;
+    }
+    .main-section p {
+      font-size: 18px;
+      color: #555;
+    }
+    .cta-button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+    .contact-section {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin: 40px 0;
+      border-radius: 8px;
+    }
+    .contact-section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .contact-section p {
+      font-size: 18px;
+      margin: 10px 0;
+      color: #555;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Header Section -->
   <header>
-    <img src="logo.jpg" alt="لوجو الشركة" style="max-width: 200px;">
-    <h1>AL-JAMAL AL-ABIDH for Trading – Hotel & Linens</h1>
+    <img src="logo.jpg" alt="لوجو الجمال الأبيض" />
+    <h1>الجمال الأبيض </h1>
   </header>
-  <section>
+
+  <!-- Main Section -->
+  <section class="main-section">
     <h2>مرحبًا بك في موقعنا</h2>
-    <p>خبرة وجودة في عالم المفروشات الفندقية</p>
+    <p>نحن نقدم لك أفضل المفروشات الفندقية، مع جودة لا مثيل لها، لتلبية احتياجاتك بأعلى معايير الجودة.</p>
+    <a href="#contact" class="cta-button">تواصل معنا الآن</a>
   </section>
-  <section class="contact">
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
     <h3>تواصل معنا</h3>
-    <p>رقم الهاتف: +966563952605 (واتساب واتصال)</p>
-    <p>الإيميل: Elsadanym04@gmail.com</p>
+    <p>رقم الهاتف: <strong>+966563952605</strong> (واتساب واتصال)</p>
+    <p>الإيميل: <strong>Elsadanym04@gmail.com</strong></p>
   </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 الجمال الأبيض - جميع الحقوق محفوظة.</p>
+  </footer>
+
 </body>
 </html>
